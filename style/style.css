@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 38px;
+}
+body .organic {
+  display: flex;
+  justify-content: center;
+}
+body .info {
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
+}
+body .info ul li {
+  list-style: none;
+}
+body .info ul li:nth-child(n+1) {
+  margin-left: 100px;
+}
+body .info ul li:hover {
+  color: #60aa60;
+  border-bottom: 1px solid;
+  transition: 0.3s;
+}
+body .first {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .first div {
+  width: 41%;
+  display: flex;
+  justify-content: space-between;
+}
+body .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+body .center img {
+  margin-top: 1rem;
+}
+body .center h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  word-spacing: 10px;
+}
+body .third {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+body .footer {
+  font-size: 18px;
+  list-style: none;
+  margin-top: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+body .footer ul {
+  list-style: none;
+}
+body .footer ul:nth-child(n+1) {
+  margin-left: 20px;
+}
+body .end {
+  margin-top: 0.5rem;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
